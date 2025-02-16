@@ -1,0 +1,24 @@
+{
+  "name": "@sse-editor/dom",
+  "version": "1.0.0",
+  "description": "Utils useful for work with dom for SSE Editor tools development",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sse-editor/dom.git"
+  },
+  "author": "SSE World",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sse-editor/dom/issues"
+  },
+  "homepage": "https://github.com/sse-editor/dom#readme",
+  "dependencies": {
+    "@sse-editor/helpers": "^1.0.1"
+  }
+}
